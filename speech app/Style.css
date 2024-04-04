@@ -1,0 +1,100 @@
+body{
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+.container{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color:wheat
+}
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color:#fff;
+
+}
+.container h1 span{
+    color:rgb(219, 18, 176);
+}
+textarea{
+    width:600px;
+    height: 250px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#fff;
+}
+textarea::placeholder{
+     font-size: 35px;
+    
+    
+     color:#fff;
+}
+.row{
+    width: 600px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+button {
+    background: linear-gradient(to right, #ff2963, #ff6c6c); /* Use a gradient for a more dynamic look */
+    color: #fff;
+    font-size: 25px;
+    padding: 15px 30px; /* Increase padding for a more spacious look */
+    border: 2px solid #fff; /* Add a border for a refined appearance */
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline: 0;
+    transition: background 0.3s ease; /* Add a smooth transition for a subtle effect */
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff6c6c, #ff2963); /* Change gradient on hover for an interactive feel */
+}
+
+button img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Add a box shadow for a subtle lift effect */
+button:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+select{
+  flex:1;
+  color: #fff;
+  background: #403d84;
+  height: 60px;
+  padding: 0 20px;
+  outline: 0;
+
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+}
